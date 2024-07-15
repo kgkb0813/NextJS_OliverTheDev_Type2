@@ -1,0 +1,48 @@
+
+.ButtonActionButton{
+  color: white;
+
+  font-weight: 500;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  border-style: none;
+  height: 40px;
+  width: 100%;
+}
+.ButtonActionButton:hover {
+  background-color: blue;
+}
+
+
+.Button{
+  background-color: var(--bgColor);
+  /* background-color: green; */
+  color: white;
+
+  font-weight:500;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border-style: none;
+  height: 40px;
+  width: 100%;
+}
+
+/* 
+.Button{
+  background-color: #4CAF50;
+  color: white;
+  font-weight:300;
+  font-size: 1.5rem;
+
+  border: 1px solid green;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+
+}
+.Button:hover {
+  background-color: gray;
+  color: #4CAF50;
+  border: 1px solid green;
+} 
+*/

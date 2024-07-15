@@ -1,0 +1,24 @@
+.Container{
+  display: flex;
+  align-items: center;
+  gap: 0 30px
+}
+
+.InputContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 5px;
+}
+
+.InputWrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.InputCard{
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  gap: 3px;
+}

@@ -1,0 +1,40 @@
+.Container{
+  display: flex;
+  justify-content: center;
+}
+
+.Wrapper{
+  /* background-color: whitesmoke; */
+  width: 80%;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Title{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.DoWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  /* background-color: rgba(230, 118, 118, 0.482); */
+}
+
+.AddTodo{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.TodoWrapper{
+  display: flex;
+  flex-direction: column;
+  /* background-color: gray; */
+  gap: 20px 0;
+}

@@ -1,0 +1,88 @@
+=================== Video Information ===================================================
+  Author: Oliver the DEV
+  Youtube: https://www.youtube.com/watch?v=9OoKXOq7ENo&t=217s
+          (run time: 01:19:44)
+
+  PC:
+    MP4: Build a Full Stack CRUD Todo App with Next.js 14, MongoDB, and Prisma.mp4
+    Video      : D:\SWCoding\VSCode\SilosVideo\NextJS\Next_MongoDBAuth\OliverDEV\Video
+    CodeReview : D:\SWCoding\VSCode\SilosVideo\NextJS\Next_MongoDBAuth\OliverDEV
+  Skill:   NextJS, TypeScript Prisma MongoDB CRUD (w/o TailwindCSS)  
+  
+=========================================================================================
+
+=================== GitHub Upload =======================================================
+  >> GitHub Upload
+      (1) 초기 준비작업
+        (1.1) open VSCode terminal  (or open git bash)
+        (1.2) git --version
+        (1.3) git config --global user.name "Cheon Beom Ik"
+        (1.4) git config --global user.email "kgkb0813@gmail.com"
+            (1.5) git config --list
+            (1.6) git config --list --show-origin --show-scope
+      (2) file 처음 upload
+            (2.1)	.gitignore file 생성 (upload에서 제거할 파일 정의)
+            (2.2) 	git init
+            (2.3) 	git add .			//  git status
+            (2.4) 	git commit -m "Final Clean Code Version (NextJS, TypeScript Prisma MongoDB CRUD w/o TailwindCSS) "
+            (2.5)	GitHub login & GitHub 홈페이지 로그인  -> dashboard로 이동 
+                      id: kgkb0813@gmail.com   pw: inxx1@wixx1@
+        - repository name 입력, private 설정 후 생성
+        - repository name: NextJS_MongoDB_Prisma(Antonio)
+        - public/private에서 private 선택
+        - Create repository 버튼 클릭
+            (2.6) git branch -M main
+            (2.7) git remote add origin https://github.com/kgkb0813/NextJS_OliverTheDev_Type2.git
+            (2.8) git push -u origin main
+      (3) file update
+            (3.1)	git add .
+            (3.2)	git commit -m "video 00:54:38" 
+            (3.3)	git push 
+=========================================================================================
+
+=================== Command List ========================================================
+    - npx create-next-app@latest client
+    - npm install next-auth
+    - npm run dev
+    - npm install @prisma/client @auth/prisma-adapter
+    - npm install prisma --save-dev
+    - npx prisma init
+    - npx prisma generate
+    - npm install uuid
+    - npm install bcryptjs
+    - npm install axios
+=========================================================================================
+
+=================== Code Review History =================================================
+    - npx create-next-app@latest myapp               // npx create-next-app@14.0.4
+        TypeScript      No
+        EsLint          Yes
+        TailwindCss     No
+        src_directory   Yes
+        App Router      Yes
+        import alias    No
+
+    - cd myapp
+    - npm install prisma --save-dev
+    - npx prisma init --datasource-provider mongodb
+    - npx prisma generate
+
+    > /prisma/schema.prisma file update
+    > /src/utils/prisma.ts new file
+
+    > /src/app/page.tsx update
+    > /src/types/input.tsx new file
+
+    > /src/components/form/Form.tsx new file
+    > /src/components/button/Button.tsx new file
+    > /src/components/input/Input.tsx new file
+
+    - npm install clsx
+    - npm install react-icons
+
+
+=========================================================================================
+  Clean Code w/o Error
+=========================================================================================
+
+

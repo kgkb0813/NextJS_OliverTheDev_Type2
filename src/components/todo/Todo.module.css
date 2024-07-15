@@ -1,0 +1,8 @@
+.Container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rosybrown;
+  border-radius: 15px;
+  padding: 10px;
+}
