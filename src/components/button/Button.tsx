@@ -2,6 +2,12 @@ import React, { ReactNode, useState } from "react";
 import clsx from "clsx";
 import styles from "./Button.module.css"
 
+declare module "react" {
+  interface CSSProperties {
+    "--bgColor"?: string;
+  }
+}
+
 export interface buttonProps{
   text: string | ReactNode;
   type?: "button" | "submit" | "reset";

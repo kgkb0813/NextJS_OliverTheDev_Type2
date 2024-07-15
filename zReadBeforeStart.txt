@@ -36,7 +36,7 @@
             (2.8) git push -u origin main
       (3) file update
             (3.1)	git add .
-            (3.2)	git commit -m "video 00:54:38" 
+            (3.2)	git commit -m "bgColor error message Removal" 
             (3.3)	git push 
 =========================================================================================
 
